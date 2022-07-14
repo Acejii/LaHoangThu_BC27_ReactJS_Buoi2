@@ -1,0 +1,104 @@
+.model-container {
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-modelImg {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  .model {
+    img {
+      width: 100%;
+    }
+  }
+
+  .glasses-choose {
+    position: absolute;
+    top: 62px;
+    left: 48px;
+    opacity: 0.5;
+    img {
+      width: 105px;
+    }
+  }
+
+  .content {
+    color: #fff;
+    padding: 15px;
+    background-color: rgba(241, 162, 106, 0.5);
+    position: absolute;
+    bottom: -45px;
+
+    .header {
+      height: 0;
+      display: flex;
+      justify-content: space-around;
+      background-color: transparent;
+      .name {
+        font-size: 12px;
+        color: Blue;
+      }
+
+      .price {
+        color: red;
+        font-weight: 700;
+      }
+    }
+
+    .desc {
+      font-size: 12px;
+    }
+  }
+}
+
+.right-modelImg {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  .model {
+    img {
+      width: 100%;
+    }
+  }
+
+  .glasses-choose {
+    position: absolute;
+    top: 62px;
+    left: 48px;
+    opacity: 0.5;
+    img {
+      width: 105px;
+    }
+  }
+
+  .content {
+    color: #fff;
+    padding: 15px;
+    background-color: rgba(241, 162, 106, 0.5);
+    position: absolute;
+    bottom: -45px;
+
+    .header {
+      height: 0;
+      display: flex;
+      justify-content: space-around;
+      background-color: transparent;
+      .name {
+        font-size: 12px;
+        color: Blue;
+      }
+
+      .price {
+        color: red;
+        font-weight: 700;
+      }
+    }
+
+    .desc {
+      font-size: 12px;
+    }
+  }
+}

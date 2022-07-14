@@ -1,0 +1,25 @@
+.glassesDisplay {
+  padding: 24px 100px;
+  .item-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 30px 50px;
+    background-color: #fff;
+
+    .item {
+      width: 20%;
+      padding: 10px 0;
+      background-color: transparent;
+      outline: none;
+      border: none;
+
+      img {
+        width: 40%;
+        cursor: pointer;
+      }
+    }
+  }
+}
